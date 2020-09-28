@@ -36,22 +36,23 @@ input[type=submit]:hover {
 }
 
 .container{
-border: 1px solid red;
+
 display: grid;
 grid-template-columns: 1fr;
 grid-template-rows: 1fr ;
-grid-template-areas: 
 
 
 }
 
-.header{
+header{
 
     border: 1px solid red;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     justify-items: start;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,89,158,0.4556197478991597) 35%, rgba(0,212,255,1) 100%);
 }
 
 .Navbar{
@@ -64,7 +65,11 @@ grid-template-areas:
 .info{
 
     border: 1px solid red;
-    justify-self: start;
+    justify-self: left;
+    line-height: 2;
+
+    
+
 
 }
 
@@ -100,7 +105,99 @@ grid-template-areas:
 
     border: 1px solid red;
     display: grid;
-    justify-self: start;
+    justify-self: left;
+    border-radius: 50%;
 }
+
+nav ul{
+
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    list-style-type: none;
+    grid-template-areas: 
+    "AboutMe Experience Education Skills Portfolio Contactme";
+
+}
+
+#AboutMe {
+    grid-area: AboutMe; 
+
+
+}
+
+li{
+    text-align: center;
+    list-style-type: none;
+}
+
+#Experience {
+    grid-area: Experience;
+
+    
+}
+
+#Education {
+
+    grid-area: Education;
+}
+
+#Skills {
+
+    grid-area: Skills;
+}
+
+#Portfolio {
+
+    grid-area: Portfolio;
+}
+
+#Contactme {
+
+    grid-area: Contactme;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.Portfolio ul{
+
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    list-style-type: none;
+    grid-template-areas: 
+    "project1 project2 project3 project4 project5";
+
+
+}
+
+#project1 {
+
+    grid-area: project1;
+}
+
+#project2 {
+
+    grid-area: project2;
+}
+
+#project3 {
+
+    grid-area: project3;
+}
+
+#project4 {
+
+    grid-area: project4;
+}
+
+#project5 {
+
+    grid-area: project5;
+}
+
+
 
 
