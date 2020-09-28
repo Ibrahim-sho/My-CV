@@ -2,6 +2,8 @@
 * {box-sizing: border-box; 
    font-family: 'Comfortaa', cursive;
    padding: 5px;
+   letter-spacing: 1px;
+   line-height: 1.6;
  
 }
 
@@ -19,7 +21,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: tomato;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -28,7 +30,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color:darkslategrey;
 }
 
 .Contact {
@@ -36,12 +38,13 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
   width: 600px;
-  margin-left: 350px;
+  margin-left: 319px;
+  text-align: center;
 
 }
 .follow{
  width: 200px;
- margin-left: 555px;
+ margin-left: 530px;
 }
 .icon{
     font-size: 1000%;
