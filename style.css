@@ -5,6 +5,8 @@
  
 }
 
+
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -33,19 +35,27 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+  width: 600px;
+  margin-left: 350px;
+
 }
-
+.follow{
+ width: 200px;
+ margin-left: 555px;
+}
+.icon{
+    font-size: 1000%;
+    color: grey;  
+}
+.icon:hover{
+    color: lightgrey;
+}
 .container{
-
 display: grid;
 grid-template-columns: 1fr;
 grid-template-rows: 1fr ;
-
-
 }
-
 header{
-
     border: 1px solid red;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -81,25 +91,23 @@ header{
 .Experience{
 
     border: 1px solid red;
+    text-align: center;
 
 }
 
 .Skills{
 
     border: 1px solid red;
+    text-align: center;
 
 }
 
 .Education{
     border: 1px solid red;
+    text-align: center;
 
 }
 
-.Portfolio{
-
-    border: 1px solid red;
-
-}
 
 .profilpic{
 
@@ -113,10 +121,10 @@ nav ul{
 
     border: 1px solid red;
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(5,1fr);
     list-style-type: none;
     grid-template-areas: 
-    "AboutMe Experience Education Skills Portfolio Contactme";
+    "AboutMe Experience Education Skills Contactme";
 
 }
 
@@ -147,10 +155,6 @@ li{
     grid-area: Skills;
 }
 
-#Portfolio {
-
-    grid-area: Portfolio;
-}
 
 #Contactme {
 
@@ -162,41 +166,16 @@ a{
 
 }
 
-.Portfolio ul{
 
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    list-style-type: none;
-    grid-template-areas: 
-    "project1 project2 project3 project4 project5";
-
-
+#moi{
+    background-image: url("images/FB_IMG_1584509980513.jpg");
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-size: 115%;
+    background-position: 53% 2%;
 }
 
-#project1 {
-
-    grid-area: project1;
-}
-
-#project2 {
-
-    grid-area: project2;
-}
-
-#project3 {
-
-    grid-area: project3;
-}
-
-#project4 {
-
-    grid-area: project4;
-}
-
-#project5 {
-
-    grid-area: project5;
-}
 
 
 
