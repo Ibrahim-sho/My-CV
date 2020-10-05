@@ -4,6 +4,7 @@
    padding: 5px;
    letter-spacing: 1px;
    line-height: 2.0;
+   background-color: #eae0c8
  
 }
 
@@ -12,7 +13,7 @@
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(109, 243, 165);
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -35,7 +36,7 @@ input[type=submit]:hover {
 
 .Contact {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: rgb(123, 247, 171);
   padding: 20px;
   width: 600px;
   margin-left: 319px;
@@ -64,8 +65,7 @@ header{
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     justify-items: start;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(89,89,158,0.4556197478991597) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient();
     line-height: 2px;
 }
 
